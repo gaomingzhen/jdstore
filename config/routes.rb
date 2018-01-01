@@ -10,8 +10,9 @@ Rails.application.routes.draw do
         post :cancel
         post :ship
         post :shipped
-        post :return 
+        post :return
       end
+    end
   end
 
   resources :products do
